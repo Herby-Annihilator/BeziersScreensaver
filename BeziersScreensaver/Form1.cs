@@ -21,7 +21,7 @@ namespace BeziersScreensaver
         private int _centerX => Width / 2;
         private int _centerY => Height / 2;
         private float _degree = 0;
-        private const float MAX_DEGREE = 180;
+        private const float MAX_DEGREE = 360;
         private float _degreeInc = 0.01f;
 
         private float _control1Inc = 0.1f;
